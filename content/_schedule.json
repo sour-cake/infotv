@@ -1,0 +1,7 @@
+{
+	"slot_time" : "S1",
+	"slots" : [
+		{ "name" : "luovi.png" },
+		{ "name" : "concrete.png" },
+	]
+}
