@@ -53,6 +53,3 @@ itv_log_file(struct itv_log_param const *param, void *context)
 {
 	fprintf(context, "%-16s: %s\n", param->func, param->text);
 }
-
-//#define	itv_assert(x)	(void)((x) ? fprintf(stderr, "Assertion (%s) failed.", #x) : 0)
-//#define itv_fail(...)	do { fprintf(stderr, __VA_ARGS__); fputc('\n', stdout); goto fail; } while (0)

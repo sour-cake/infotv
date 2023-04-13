@@ -70,7 +70,7 @@ Päivä-aikamuoto:
 	Päivämäärät ja ajat annetaan kirjain-numero yhdistelminä, esim. M12 on joulukuu.
 	Aikavälin voi antaa väliviivaa käyttämällä, esim. P1-5 on arkipäivät.
 	Viikonpäivät alkavat maanantaista.
-	Y=vuosi, Mkuukausi, V=viikko, D=kuukaudenpäivä, P=viikonpäivä,
+	Y=vuosi, M=kuukausi, V=viikko, D=kuukaudenpäivä, P=viikonpäivä,
 	h=tunti, m=minuutti, s=sekuntti.
 
 Aikataulun muoto on seuraava:
@@ -82,7 +82,7 @@ Aikataulun muoto on seuraava:
 
 ```
 {
-	"slot_time" : "m1",
+	"slot_time" : 60,
 	"slots" : [
 		{ "name" : "slide1.png" },
 		{

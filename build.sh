@@ -15,7 +15,7 @@ LIBS="$(grep 'itv-libraries:' src/$PROGRAM.c | cut -d':' -f2)"
 	&& MODEFL='-fsanitize=undefined -g3 -O0' \
 	|| MODEFL='-O'
 
-echo $CC \
+$CC \
 	-std=c99 \
 	-Wall -Wextra -Werror \
 	$(pkg-config --cflags $LIBS) \
